@@ -641,10 +641,6 @@ select {
   margin-bottom: 16px;
 }
 
-.section__title{
-  margin-top: 48px;
-}
-
 /* 
 
   CART 
@@ -773,6 +769,11 @@ select {
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
+
+  body{
+    max-width: 768px;
+  }
+
   .header__description {
     padding: 0 24px;
   }
